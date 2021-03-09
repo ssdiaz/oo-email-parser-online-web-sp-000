@@ -9,14 +9,14 @@ class EmailAddressParser
   @@all = []
 
 
-  # def initialize (email_addresses)
-  #
-  # end
+  def initialize (emails)
+    emails.split(" ")
+  end
 
 
   def parse
     #email_addresses.split(/\ |\,/)
-    emails.split(" ")
+    #emails.split(" ")
 
   end
 
