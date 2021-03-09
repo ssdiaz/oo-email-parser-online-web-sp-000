@@ -11,14 +11,12 @@ class EmailAddressParser
 
   def initialize (emails)
     @emails = emails
-    emails.split(" ") || emails.split(",")
+    #emails.split(" ") || emails.split(",")
   end
 
 
   def parse
     emails.split(/\ |\, /)
-    #emails.split(" ")
-
   end
 
 
