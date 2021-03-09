@@ -5,5 +5,18 @@
 
 class EmailAddressParser
 
+  attr_accessor :name
+  @@all = []
+
+
+  def initialize (email_addresses)
+
+  end
+
+
+  def parse
+    email_addresses.split(/\ |\,/)
+  end
+
 
 end
