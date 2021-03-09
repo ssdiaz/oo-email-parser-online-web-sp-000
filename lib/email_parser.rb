@@ -16,8 +16,8 @@ class EmailAddressParser
 
 
   def parse
-    #email_addresses.split(/\ |\,/)
-    emails.split(" ")
+    emails.split(/\ |\,/)
+    #emails.split(" ")
 
   end
 
