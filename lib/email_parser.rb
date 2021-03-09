@@ -5,7 +5,7 @@
 
 class EmailAddressParser
 
-  attr_accessor :name
+  attr_accessor :emails
   @@all = []
 
 
@@ -16,7 +16,7 @@ class EmailAddressParser
 
   def parse
     #email_addresses.split(/\ |\,/)
-    self.split(/\ |\,/)
+    emails.split(/\ |\,/)
 
   end
 
